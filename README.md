@@ -43,3 +43,8 @@
                 panic!("do not return anything");
             }
         ```
+## tupple:
+    - one of the reason Rust have tupple is the function just return one value, therefore, user can have something like that
+        ```rust
+            fn complex() -> (i64,&str) {1,"string"}
+        ```
