@@ -35,4 +35,11 @@
         }
         ```
         error rising here because `;` turn the expression into a statement by throwing away its value and return `()` (unit)
-    
+## functions:
+    - return only one value
+    - divergin function(do not return):
+        ```rust
+            fn diverges() -> ! {
+                panic!("do not return anything");
+            }
+        ```
